@@ -11,7 +11,7 @@ public class DemoRestController {
 	@GetMapping(value = "/welcome")
 	public String welcomePage()
 	{
-		String msg="<h1 style='color:green'>Welcome To Spring Boot App-1</h1>";
+		String msg="<h1 style='color:red'>Welcome To Spring Boot App-1</h1>";
 		return msg;
 	}
 	
